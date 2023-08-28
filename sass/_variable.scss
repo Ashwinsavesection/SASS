@@ -1,0 +1,9 @@
+$primary-color:red;//first enter variable-name and value
+$font-family:"Roboto", sans-serif;
+$sam:green;
+body{
+    font-family: $font-family;//use the vasriable recommended areas
+}
+h2{
+    color: $sam;
+}

@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: green;
+}
+
+nav {
+  padding: 20px;
+  background-color: burlywood;
+}
+nav a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+/*
+
++ Addition
+- subtraction
+* multipulation
+/ divison
+
+*/
+.addtion {
+  font-size: 70px;
+}
+
+.subtraction {
+  font-size: 48px;
+}
+
+.multipulation {
+  font-size: 100px;
+}
+
+.divison {
+  font-size: 52px;
+}
+
+/*
+@use "sass\math";
+
+@debug "hello how are you ";
+@debug math.max(10px,4px,12px);
+@debug math.ceil(9.4);
+@debug math.floor(9.4);
+@debug math.round(9.4);
+@debug math.abs(-43);
+@debug math.sqrt(45);
+@debug math.pow(45,2);
+
+@debug math.is-unitless(45);
+@debug math.is-unit(45);
+
+@debug math.div(48,2);
+
+@debug math.random(1000);
+@debug math.percentage(0.48);
+*/
+p {
+  color: rgb(0, 157, 255);
+}
+
+.text-primary {
+  color: blue;
+}
+
+.bg-primary {
+  background-color: blue;
+}
+
+.text-success {
+  color: green;
+}
+
+.bg-success {
+  background-color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+.bg-danger {
+  background-color: red;
+}
+
+.text-info {
+  color: yellow;
+}
+
+.bg-info {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+$house:(
+    "key-1":"room-1",
+    "key-2":"room-2",
+    "key-3":"room-3",
+    "key-4":"room-4",
+    "primary" : rgb(0, 157, 255),
+);
+@debug map-get($house, "key-2"); 
+@debug map-has-key($house, "key-5"); 
+@debug map-remove($house, "key-2");  
+@debug map-merge($house, ("key-6" : "room-6"));  
+
+p{
+    color: map-get($house, "primary" );
+}

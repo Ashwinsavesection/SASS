@@ -1,0 +1,15 @@
+$color:(
+    "primary" : blue,
+    "success" : green,
+    "danger" : red,
+    "info" : yellow,
+);
+@each $key,$val in $color{
+    .text-#{$key}
+    {
+        color: $val;
+    } 
+    .bg-#{$key}{
+        background-color: $val;
+    }
+}

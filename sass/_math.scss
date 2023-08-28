@@ -1,0 +1,42 @@
+/*
+
++ Addition
+- subtraction
+* multipulation
+/ divison
+
+*/
+$base-size:50px;
+.addtion{
+    font-size: $base-size + 20;
+}
+.subtraction{
+    font-size: $base-size - 2;
+}
+.multipulation{
+    font-size: $base-size * 2;
+}
+.divison{
+    font-size: $base-size + 2;
+}
+/*
+@use "sass\math";
+
+@debug "hello how are you ";
+@debug math.max(10px,4px,12px);
+@debug math.ceil(9.4);
+@debug math.floor(9.4);
+@debug math.round(9.4);
+@debug math.abs(-43);
+@debug math.sqrt(45);
+@debug math.pow(45,2);
+
+@debug math.is-unitless(45);
+@debug math.is-unit(45);
+
+@debug math.div(48,2);
+
+@debug math.random(1000);
+@debug math.percentage(0.48);
+*/
+
